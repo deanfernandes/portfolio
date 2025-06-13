@@ -8,15 +8,21 @@ header {
   font-family: monospace;
   white-space: nowrap;
   overflow: hidden;
+}
+
+.typing#name {
+  animation:
+    show-cursor 0s forwards,
+    typing-name 2s steps(14) forwards,
+    hide-cursor 0s 2s forwards;
+}
+
+.typing#job-title {
   width: 0;
-}
-
-#name {
-    animation: show-cursor 0s forwards, typing-name 2s steps(14) forwards, hide-cursor 0s 2s forwards;
-}
-
-#job-title {
-    animation: show-cursor 0s 2s forwards, typing-job-title 2s 2s steps(18) forwards, hide-cursor 0s 4s forwards;
+  animation: 
+    show-cursor 0s 2s forwards,
+    typing-job-title 2s 2s steps(18) forwards,
+    hide-cursor 0s 4s forwards;
 }
 
 .profile-pic {
@@ -25,10 +31,7 @@ header {
     border-radius: 50%;
     border: 2px solid var(--text-color);
     object-fit: cover;
-}
-
-#settings-bar {
-  
+    margin-top: 15px
 }
 
 /* animations */

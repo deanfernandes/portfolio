@@ -1,0 +1,13 @@
+#settings-bar {
+    display: flex;
+    flex-direction: row-reverse;
+    column-gap: 25px;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
+.theme-btn, .language-btn {
+    all: unset;
+    font-size: 35px;
+    cursor: pointer;
+}

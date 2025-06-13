@@ -1,4 +1,3 @@
-import './ThemeButton.css'
 import useTheme from "../hooks/useTheme";
 
 function ThemeButton() {
