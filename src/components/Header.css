@@ -23,8 +23,12 @@ header {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 2px solid black;
+    border: 2px solid var(--text-color);
     object-fit: cover;
+}
+
+#settings-bar {
+  
 }
 
 /* animations */
