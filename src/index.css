@@ -19,3 +19,9 @@ body {
     background-color: var(--bg-color);
     color: var(--text-color);
 }
+
+#root {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}

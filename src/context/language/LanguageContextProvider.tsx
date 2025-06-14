@@ -3,8 +3,12 @@ import {type ReactNode, useState, useEffect } from "react";
 import { type Language } from "./types";
 
 const translations: Record<string, Record<string, string>> = {
-    en: {},
-    pt: {}
+    en: {
+        "copyrightMessage": "All rights reserved.",
+    },
+    pt: {
+        "copyrightMessage": "Todos os direitos reservados",
+    }
 };
 
 type LanguageContextProviderProps = {
