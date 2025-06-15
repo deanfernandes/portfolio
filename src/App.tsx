@@ -1,16 +1,18 @@
 import './App.css'
 import Footer from './components/Footer'
 import Header from './components/Header'
-import Main from './components/Main'
+import Content from './components/Content'
 import SettingsBar from './components/SettingsBar'
+import BackToTopButton from './components/BackToTopButton'
 
 function App() {
   return (
     <>
       <SettingsBar/>
       <Header/>
-      <Main/>
+      <Content/>
       <Footer name={'Dean Fernandes'}/>
+      <BackToTopButton/>
     </>
   )
 }

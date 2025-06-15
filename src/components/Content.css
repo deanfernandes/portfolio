@@ -1,0 +1,74 @@
+.content {
+    flex: 1;
+    display: flex;
+}
+
+.sidebar {
+    position: fixed;
+    width: 15%;
+}
+
+main {
+    margin: auto auto;
+}
+
+#skills>ul {
+    list-style: none;
+}
+
+.tech-stack {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    gap: 20px;
+}
+
+section {
+    margin: 20px 0;
+}
+
+section>h2 {
+    margin-bottom: 20px
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.load-more-btn {
+  padding: 0.5em 1em;
+  margin-top: 1em;
+  cursor: pointer;
+  background-color: var(--text-color);
+  border: none;
+  color: var(--bg-color);
+  border-radius: 4px;
+  font-size: 1rem;
+  width: 400px;
+}
+
+#backToTopBtn {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 80px;
+    right: 80px;
+    z-index: 1;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    font-size: 1.3rem;
+}
+
+ul {
+  padding-left: 1.5rem;
+  list-style-type: disc;
+}
+
+ul ul {
+  list-style-type: circle;
+}
