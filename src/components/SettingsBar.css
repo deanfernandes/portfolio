@@ -8,6 +8,19 @@
 
 .theme-btn, .language-btn {
     all: unset;
-    font-size: 35px;
+    font-size: 30px;
     cursor: pointer;
+}
+
+.theme-btn:hover, .language-btn:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 700px) {
+    #settings-bar {
+        flex-direction: column;
+        align-items: end;
+        margin-top: 5px;
+        margin-right: 5px;
+    }
 }

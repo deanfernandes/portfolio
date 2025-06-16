@@ -46,7 +46,7 @@ header {
 }
 
 @keyframes show-cursor {
-  to { border-right: 0.15em solid black; }
+  to { border-right: 0.15em solid var(--text-color); }
 }
 
 @keyframes hide-cursor {

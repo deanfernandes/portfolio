@@ -1,0 +1,16 @@
+.project-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+    box-shadow: 0 0 3px var(--text-color);
+    padding: 20px;
+    width: 100%;
+    max-width: 550px;
+    max-height: 550px;
+}
+
+.project-card>a>img{
+    width: 100%;
+    max-width: 450px;
+    max-height: 450px;
+}

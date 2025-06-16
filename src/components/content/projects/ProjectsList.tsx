@@ -1,6 +1,7 @@
+import './ProjectsList.css'
 import { useState } from "react";
 import ProjectCard from "./ProjectCard";
-import useLanguage from "../hooks/useLanguage";
+import useLanguage from "../../../hooks/useLanguage";
 
 interface Project {
     id: number,

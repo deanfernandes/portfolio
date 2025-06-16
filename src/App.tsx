@@ -1,7 +1,7 @@
 import './App.css'
 import Footer from './components/Footer'
 import Header from './components/Header'
-import Content from './components/Content'
+import Content from './components/content/Content'
 import SettingsBar from './components/SettingsBar'
 import BackToTopButton from './components/BackToTopButton'
 

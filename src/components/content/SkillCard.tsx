@@ -1,12 +1,12 @@
 import { type FC } from "react"
-import './TechCard.css';
+import './SkillCard.css';
 
-type TechCardProps = {
+type SkillCardProps = {
     name: string,
     logo: string,
 }
 
-const TechCard: FC<TechCardProps> = ({name, logo}) => {
+const SkillCard: FC<SkillCardProps> = ({name, logo}) => {
     return (
         <div className="tech-card">
             <img src={logo} alt="logo" className="logo" />
@@ -15,4 +15,4 @@ const TechCard: FC<TechCardProps> = ({name, logo}) => {
     );
 }
 
-export default TechCard;
+export default SkillCard;

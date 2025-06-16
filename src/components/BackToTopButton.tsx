@@ -6,7 +6,7 @@ function BackToTopButton() {
     const [isVisible, setIsVisible] = useState(false);
     useEffect(()=> {
         function handleOnScroll () {
-            setIsVisible(window.scrollY > 300);
+            setIsVisible(window.scrollY > 250);
         }
 
         window.addEventListener('scroll', handleOnScroll);
@@ -18,7 +18,7 @@ function BackToTopButton() {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
-    return (isVisible && <button id="backToTopBtn" title={t('go-to-top')} onClick={handleOnClick}><i className="fas fa-chevron-up"></i></button>);
+    return (isVisible && <button id="back-to-top-btn" title={t('go-to-top')} onClick={handleOnClick}><i className="fas fa-chevron-up"></i></button>);
 }
 
 export default BackToTopButton;

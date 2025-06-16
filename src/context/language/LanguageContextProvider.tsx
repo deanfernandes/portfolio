@@ -2,11 +2,12 @@ import LanguageContext from "./LanguageContext";
 import {type ReactNode, useState, useEffect } from "react";
 import { type Language } from "./types";
 
+//TODO: json files + sections e.g. sidebar
 const translations: Record<string, Record<string, string>> = {
     en: {
         "copyrightMessage": "All rights reserved.",
         "education": "Education",
-        "work-experience": "Work Experience",
+        "experience": "Experience",
         "skills": "Skills",
         "projects": "Projects",
         "go-to-top": "Go to top",
@@ -16,7 +17,7 @@ const translations: Record<string, Record<string, string>> = {
     pt: {
         "copyrightMessage": "Todos os direitos reservados",
         "education": "Educação",
-        "work-experience": "Experiência Profissional",
+        "experience": "Experiência",
         "skills": "Habilidades",
         "projects": "Projetos",
         "go-to-top": "Ir para o topo",

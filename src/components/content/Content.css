@@ -1,0 +1,6 @@
+.content-container {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    grid-template-areas: "Sidebar Content .";
+}

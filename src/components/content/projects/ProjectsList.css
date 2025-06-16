@@ -1,0 +1,22 @@
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+}
+
+.load-more-btn {
+  padding: 0.5em 1em;
+  margin-top: 1em;
+  cursor: pointer;
+  background-color: var(--text-color);
+  border: none;
+  color: var(--bg-color);
+  border-radius: 4px;
+  font-size: 1rem;
+  max-width: 550px;
+}
+
+.load-more-btn:hover {
+    opacity: 0.8;
+}
