@@ -20,6 +20,7 @@ const translations: Record<string, Record<string, string>> = {
         "contact-send": "Send",
         "contact-sending": "Sending",
         "email-sent-msg": "Email sent",
+        "contact": "Contact",
     },
     pt: {
         "copyrightMessage": "Todos os direitos reservados",
@@ -37,6 +38,7 @@ const translations: Record<string, Record<string, string>> = {
         "contact-send": "Enviar",
         "contact-sending": "Enviando",
         "email-sent-msg": "E-mail enviado",
+        "contact": "Contato",
     }
 };
 
@@ -51,6 +53,7 @@ function LanguageContextProvider({children} : LanguageContextProviderProps) {
 
     useEffect(()=> {
         window.localStorage.setItem('lang', language);
+        document.documentElement.lang = language;
     }, [language])
 
     function toggleLanguage() {

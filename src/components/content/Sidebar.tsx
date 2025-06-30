@@ -23,6 +23,10 @@ function Sidebar() {
                     <span className='emoji'>💻</span>
                     <span className='label'>{t('projects')}</span>
                 </a>
+                <a href="#contact">
+                    <span className='emoji'>📝</span>
+                    <span className='label'>{t('contact')}</span>
+                </a>
             </nav>
         </aside>
     );

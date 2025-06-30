@@ -18,7 +18,7 @@ function ProjectsList() {
     const projects: Project[] = [
         {id: 1, title:'MirrorTube', desc:'Chrome extension for mirroring youtube videos', images: ['images/mirrortube1.png', 'images/mirrortube2.png'], srcCodeLink: 'https://github.com/deanfernandes/MirrorTube'},
         {id: 2, title:'Fruitle', desc:'Wordle but fruit 🍓', images: ['images/fruitle1.png'], srcCodeLink: 'https://github.com/deanfernandes/fruitle-v2'},
-        {id: 3, title:'Chess.js', desc:'Play online chess against another user', images: ['images/chessjs1.png'], srcCodeLink: 'https://github.com/deanfernandes/Chess.js'},
+        {id: 3, title:'Chess.js', desc:'Play online chess against another local user', images: ['images/chessjs1.png'], srcCodeLink: 'https://github.com/deanfernandes/Chess.js'},
         {id: 4, title:'Stopwatch', desc:'Google-style stopwatch npm package', images: ['images/stopwatch1.gif'], srcCodeLink: 'https://github.com/deanfernandes/stopwatch'},
     ];
 
