@@ -33,6 +33,15 @@ ul {
     font-size: 1.2rem;
 }
 
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.required {
+    color: red;
+}
+
 @media (max-width: 800px) {
     .skills-container {
         display: flex;

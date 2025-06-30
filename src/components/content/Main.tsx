@@ -2,6 +2,7 @@ import './Main.css'
 import useLanguage from "../../hooks/useLanguage";
 import SkillCard from "./SkillCard";
 import ProjectsList from './projects/ProjectsList';
+import ContactForm from './ContactForm';
 
 function Main() {
     const {t} = useLanguage();
@@ -63,6 +64,7 @@ function Main() {
                 <h2>{t('projects')}:</h2>
                 <ProjectsList/>
             </section>
+            <ContactForm/>
         </main>
     );
 }
