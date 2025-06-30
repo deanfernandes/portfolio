@@ -64,6 +64,7 @@ function Main() {
                 <h2>{t('projects')}:</h2>
                 <ProjectsList/>
             </section>
+            
             <ContactForm/>
         </main>
     );

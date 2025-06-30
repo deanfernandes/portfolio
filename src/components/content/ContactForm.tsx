@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import useLanguage from "../../hooks/useLanguage"
 import emailjs from 'emailjs-com'
+import './ContactForm.css'
 
 type FormData = {
     name: string,
@@ -72,7 +73,7 @@ function ContactForm() {
                         <input type="text" id="email" name="email" value={formData.email} onChange={handleOnChange} required/>
 
                         <label htmlFor="message">{t('contact-msg')}<span className="required">*</span></label>
-                        <textarea name="message" id="message" rows={3} value={formData.message} onChange={handleOnChange} required></textarea>
+                        <textarea name="message" id="message" rows={6} value={formData.message} onChange={handleOnChange} required placeholder={t("contact-msg-placeholder")}></textarea>
 
                         <input type="text" name="website" onChange={handleOnChange} hidden /> {/* honeypot */}
 
