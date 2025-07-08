@@ -58,7 +58,7 @@ function ContactForm() {
             setIsSending(false);
         });
 
-        setFormData(prev => ({name: '', email: '', message: '', website: ''}));
+        setFormData({name: '', email: '', message: '', website: ''});
     }
 
     return (
