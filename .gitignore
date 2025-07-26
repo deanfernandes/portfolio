@@ -13,3 +13,5 @@
 !tsconfig
 !tsconfig*.json
 !vite.config.ts
+!.github/
+!.github/**
