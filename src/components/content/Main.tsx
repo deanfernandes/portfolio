@@ -50,6 +50,7 @@ function Main() {
                     <SkillCard name={'CSS'} logo={'images/css.svg'}/>
                     <SkillCard name={'SASS'} logo={'images/sass.svg'}/>
                     <SkillCard name={'Bootstrap'} logo={'images/bootstrap.svg'}/>
+                    <SkillCard name={'Tailwind CSS'} logo={'images/tailwindcss.svg'}/>
                     <SkillCard name={'JavaScript'} logo={'images/js.svg'}/>
                     <SkillCard name={'React'} logo={'images/react.svg'}/>
                     <SkillCard name={'TypeScript'} logo={'images/ts.svg'}/>
